@@ -8,14 +8,9 @@ box-sizing: border-box;
 text-decoration: none;
 outline: none;
 border: none;
-/*text-transform: capitalize;*/
 transition: all .2s linear;
 }
 
-*::selection{
-background: #333;
-color:#8c0d07 ;	
-}
 
 html{
 font-size: 62.5%;
@@ -357,7 +352,6 @@ align-items: center;
 color: #333;
 display: block;
 text-align: center;
-/*text-indent: 200px;*/
 padding-bottom: 2rem;
 }
 
@@ -366,6 +360,7 @@ font-weight: bold;
 font-size: 2.1rem;
 color: #333;	
 text-align: center;
+list-style-type: none;	
 }
 
 
