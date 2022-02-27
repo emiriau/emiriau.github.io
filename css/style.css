@@ -415,17 +415,6 @@ height: 7.5rem;
 }
 
 
-
-.top{	
-position: fixed;
-bottom: 9rem;	
-right: 2rem;
-z-index: 100;
-display: none;
-}
-
-
-
 @media (max-width:1200px){
 
 html{
@@ -447,10 +436,7 @@ left: -120%;
 #menu{
 	display: block;
 }
-header.toggle{
-left: 0%;
 
-}
 body{
 padding: 0;	
 }
